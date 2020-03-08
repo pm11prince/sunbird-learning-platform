@@ -9,7 +9,7 @@ node() {
 
 
         stage('checkout public repo') {
-            cleanWs()
+           
             checkout scm
         }
 
